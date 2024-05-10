@@ -1,16 +1,11 @@
 import { StyleSheet, Text, View } from "react-native";
 import LottieView from "lottie-react-native";
+import SplashScreen from "./src/screens/SplashScreen";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <LottieView
-        source={require("./assets/animations/Loading.json")}
-        style={{ width: 250, height: 250 }}
-        autoPlay
-        loop
-      ></LottieView>
-      <Text>Hello World</Text>
+      <SplashScreen></SplashScreen>
     </View>
   );
 }
