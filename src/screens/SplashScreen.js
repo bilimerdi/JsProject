@@ -33,16 +33,16 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    marginTop: -100,
   },
   image: {
-    width: width,
-    height: height,
+    width: width * 1,
+    height: height * 0.5,
   },
   header: {
-    marginTop: -100,
+    marginTop: 20,
     color: "#3A7D44",
     fontSize: 40,
+    textAlign: "center",
   },
 });
 

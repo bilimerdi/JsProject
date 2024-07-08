@@ -1,11 +1,13 @@
 import { StyleSheet, Text, View } from "react-native";
 import LottieView from "lottie-react-native";
 import SplashScreen from "./src/screens/SplashScreen";
+import MainScreen from "./src/screens/MainScreen";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <SplashScreen></SplashScreen>
+      {/* <SplashScreen></SplashScreen> */}
+      <MainScreen></MainScreen>
     </View>
   );
 }
